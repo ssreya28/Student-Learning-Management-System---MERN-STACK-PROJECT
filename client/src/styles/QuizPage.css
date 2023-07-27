@@ -1,0 +1,149 @@
+.container-quiz {
+  width: 680px;
+  height: 300px;
+  border: 1px solid black;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 15px;
+  /* box-shadow: 2px 2px 10px 1px rgb(102, 3, 102); */
+  box-shadow: 2px 2px 10px 1px #333;  
+  overflow: hidden;
+  position: relative;
+  margin-top: -23%;
+  margin-left: -16%;
+}
+.heading-txt-quiz{
+  color:white;
+  /* color:#276272; */
+  font-size: 30px;
+  font-weight: bold;
+  margin: 6px; 
+  text-transform: uppercase;
+}
+.question-quiz{
+  margin:5px;
+  box-shadow: 0px 0px 10px 1px #a2a3a3;
+  border-radius: 3px;
+  padding:3px;
+  font-size: large;
+  font-weight: 900;
+  font-family: 'Times New Roman', Times, serif;
+  min-width: 80%;
+  min-height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#question-number-quiz{
+  margin-right: 5px;
+}
+.option-container-quiz{
+  display: flex;
+  flex-direction: column;
+  margin:6px 4px;    
+  width: 100%;
+  padding: 10px;
+}
+/* .option-container input{
+  visibility: hidden;    
+} */
+.option-btn-quiz{
+  box-shadow: 0px 0px 4px 1px rgb(128, 123, 123);
+  padding: 5px;
+  border-radius: 3px;
+  border:none;
+  outline: none;
+  transition: 0.3s;
+  margin: 5px;
+  min-height: 30px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.checked-quiz{
+  background-color: rgb(179, 83, 179);
+  color:white;
+  box-shadow: 3px 3px 4px 1px rgb(78, 69, 78);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.option-btn-quiz:hover{
+  background-color: rgb(212, 118, 212);
+  color:white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#next-button-quiz{
+  padding:10px; 
+  border:none;
+  background-color: rgb(159, 62, 249);
+  color:white;
+  border-radius: 5px;
+  box-shadow: 3px 3px 2px 1px rgb(127, 109, 109);
+  font-size: larger;
+  font-weight: bold;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  transition: 0.2s;
+  width:140px;
+  position: absolute;
+  bottom: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#next-button-quiz:active{
+  box-shadow:none;    
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.show-score-quiz{
+  position: absolute;
+  font-size: xx-large;
+  text-align: center;  
+}
+
+/*test me*/
+.testme{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      width: 400px;
+      height: 300px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      overflow: hidden;    
+}
+
+.ban-card img{
+  width: 1260px;
+  height: 600px;
+  opacity: 90%;
+  margin-top: -5%;
+  margin-right: -1%;
+}
+.ban-card{
+  position: relative;
+}
+.ban-text{
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  color: black;
+  padding: 20px;
+}
+
+.center-button-quiz {
+    display: flex;
+    justify-content: center;
+}

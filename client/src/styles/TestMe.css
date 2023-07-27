@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400&display=swap");
+
+body{
+  font-family: 'Poppins', sans-serif;
+
+}
+.container-test {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 500px;
+    min-width: 1100px;
+    background-color: white;
+    border-radius: 15px;
+    /* box-shadow: 2px 2px 10px 1px rgb(102, 3, 102); */
+    box-shadow: 2px 2px 10px 1px #333;  
+    overflow: hidden;
+    padding: 10px;
+    position: relative;
+  }
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px 0;
+  }
+.secondSection{
+  max-width: 80vw;
+  margin: 100px;
+}
+.left{
+    font-size: 3rem;
+    margin: 50px 0;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+}
+.left img{
+  margin: 0 65px;
+  width: 20%;
+}
+.right img{
+    width: 100%;
+}
+.purple{
+    color: rgb(170, 107, 228);
+}
+
+.vertical-title{
+  position: relative;
+  top: 75px;
+  width: 700px;
+}
+.vertical-desc{
+  margin: 0 70px;
+  position: relative;
+  top: 6px;
+  width: 150px;
+  font-size: 9px;
+}
+
+.image-container {
+  display: inline-block;
+  text-align: center;
+}
+
+.image-container img {
+  width: 150px;
+  height: 150px;
+}
+
+.image-container p {
+  margin-top: 10px;
+  font-size: 15px;
+}
+.new-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.new-left .image-container {
+  text-align: center;
+}
+
+/* CSS for the carousel slides */
+.slide-container {
+  display: flex;
+  align-items: center;
+}
+
+.image-container1 {
+  flex: 0 0 50%; /* Adjust the width of the image container as needed */
+}
+
+.content-container1 {
+  flex: 0 0 60%; /* Adjust the width of the content container as needed */
+  padding: 40px 100px; /* Add padding around the content for spacing */
+}
+
+/* Optional: Additional styling for the image and content */
+.image-container1 img {
+  max-width: 100%;
+  height: auto;
+}
+
+.content-container1 h3 {
+  margin-top: 0;
+  font-size: 54px; /* Increase the font size for the heading */
+}
+
+.content-container1 p {
+  margin-bottom: 0;
+  font-size: 20px; /* Increase the font size for the paragraph */
+}
